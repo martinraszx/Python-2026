@@ -78,4 +78,4 @@ print(bool(1))
 print(bool(0))
 print(bool(""))
 print(bool(4000))
-print(bool(pinpon)) 
+print(bool(pinpon)) #dice si el numero es 0 o no, si es 0 es falso, si es diferente de 0 es verdadero
