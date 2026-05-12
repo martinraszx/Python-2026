@@ -27,7 +27,7 @@ print(f"El numero PI tiene un valor de {PI: .2f}")
 #Formato de salida de Numeros
 
 #Limitar a 4 decimales el valor de Pi
-print(f"El valor de Pi es {Pi:.4f}") 
+print(f"El valor de Pi es {PI:.4f}") 
 
 # El metodo de Redondeo
 print(f"El area del triangulo es {round(area, 2)} cm")
@@ -37,8 +37,13 @@ print(f"El area del triangulo es {round(area, 2)} cm")
 carrera= "Inginieria civil en Informatica"
 institucion ="Universidad de los lagos"
 
+#Concatenacion de cadenas MOSTRANDO SU POCISION 
 print(carrera[0]) #Se muestra la primera letra de la variable carrera
 print(carrera[-1]) #Se muestra la ultima letra de la variable carrera
+
+#Aplicando metodo split 
+print(carrera.split())      #Se divide la cadena en sub capas
+print(institucion.split())
 
 print("hola" * 4) #Se repite la palabra hola 4 veces
 
@@ -55,3 +60,22 @@ lista_mixta= ["ola", 3.14159, 42, True]         #Arreglo mixto
 print(colores[0])       #Se imprime el primer elemento de la lista
 print(numeros[-1])      #Se imprime el ultimo elemento de la lista
 print(lista_mixta)
+
+#Boleanos (Logicos)
+interruptor = False
+Luz = True
+
+print("============Boleanos============")
+print(interruptor)
+print(Luz)
+
+#Metodo type que permite saber el tipo de datos que es una variable
+print(f"El tipo de datos es {type(carrera)}")
+
+pinpon = 0
+
+print(bool(1))
+print(bool(0))
+print(bool(""))
+print(bool(4000))
+print(bool(pinpon)) 
