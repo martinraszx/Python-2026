@@ -1,0 +1,6 @@
+Tramo1 = (50 + 30j)
+Tramo2 = (40 - 10j)
+Resultado = (Tramo1 + Tramo2)
+print(Resultado)
+print(f"es {Tramo1.imag} {Tramo1.real}")
+print(f"es {Tramo2.imag} {Tramo2.real}")
